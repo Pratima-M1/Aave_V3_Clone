@@ -82,7 +82,7 @@ export const getERC20 = async (
   address: tEthereumAddress
 ): Promise<IERC20Detailed> =>
   getContract(
-    "@aave/core-v3/contracts/dependencies/openzeppelin/contracts/IERC20Detailed.sol:IERC20Detailed",
+    "../../contracts/core-v3/contracts/dependencies/openzeppelin/contracts/IERC20Detailed.sol:IERC20Detailed",
     address
   );
 
@@ -160,7 +160,7 @@ export const getIErc20Detailed = async (
   address: tEthereumAddress
 ): Promise<IERC20Detailed> =>
   getContract(
-    "@aave/core-v3/contracts/dependencies/openzeppelin/contracts/IERC20Detailed.sol:IERC20Detailed",
+    "../../contracts/core-v3/contracts/dependencies/openzeppelin/contracts/IERC20Detailed.sol:IERC20Detailed",
     address
   );
 
