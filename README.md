@@ -40,8 +40,13 @@ This project provides deployment and interaction scripts for the Aave V3 protoco
 - RPC_URL=
 - PRIVATE_KEY=
 
-2. npx hardhat deploy --network NETWORK
-   select network of your choice(ex: hardhat or sepolia )
+2. To deploy contracts
+
+```
+npx hardhat deploy --network NETWORK
+```
+
+select network of your choice(ex: hardhat or sepolia )
 
 3. To supply and withdraw asset
    replace the address in supplyAndWithdraw.js
