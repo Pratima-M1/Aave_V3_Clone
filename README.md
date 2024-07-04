@@ -70,10 +70,9 @@ npx hardhat run scripts/borrowAndRepay.js --network NETWORK
 
 - **LINK erc20 token** : ["0x0429AeAb561d1e8B235144e32F70eF3A51075f7F"](https://sepolia.etherscan.io/address/0x0429AeAb561d1e8B235144e32F70eF3A51075f7F)
 
-- **Proxy Pool Contract**
-  //proxy pool address : ["0xDd823E5d36cBB2f79a7857ba6E0f73Db0f335265"](https://sepolia.etherscan.io/address/0xDd823E5d36cBB2f79a7857ba6E0f73Db0f335265)
+- **Proxy Pool Contract** : ["0xDd823E5d36cBB2f79a7857ba6E0f73Db0f335265"](https://sepolia.etherscan.io/address/0xDd823E5d36cBB2f79a7857ba6E0f73Db0f335265)
 
--**PoolAddressesProvider contract** : ["0x4b930b87fAF4f6a1d9c5c0Af546cBFd89E34D9a9"](https://sepolia.etherscan.io/address/0x4b930b87fAF4f6a1d9c5c0Af546cBFd89E34D9a9)
+- **PoolAddressesProvider contract** : ["0x4b930b87fAF4f6a1d9c5c0Af546cBFd89E34D9a9"](https://sepolia.etherscan.io/address/0x4b930b87fAF4f6a1d9c5c0Af546cBFd89E34D9a9)
 
 ## Transactions
 
