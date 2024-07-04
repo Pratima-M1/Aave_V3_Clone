@@ -48,34 +48,13 @@ npx hardhat deploy --network NETWORK
 
 select network of your choice(ex: hardhat or sepolia )
 
-3. To supply and withdraw asset
-   replace the address in supplyAndWithdraw.js
-   const faucet_address = "";
-   const aaveAddress = "";
-   const daiAddress = "";
-   const linkAddress = "";
-   //proxy pool address
-   const poolAddress = "";
-   const poolProvider = "";
-
-   and
-   run
+3. To supply and withdraw asset, replace the addresses in supplyAndWithdraw.js and run
 
 ```
 npx hardhat run scripts/supplyAndWithdraw.js --network NETWORK
 ```
 
-4. To borrow and repay replace address in borrowAndRepay.js
-   replace the address in supplyAndWithdraw.js
-   const faucet_address = "";
-   const aaveAddress = "";
-   const daiAddress = "";
-   const linkAddress = "";
-   //proxy pool address
-   const poolAddress = "";
-   const poolProvider = "";
-
-and run
+4. To borrow and repay, replace address in borrowAndRepay.js and run
 
 ```
 npx hardhat run scripts/borrowAndRepay.js --network NETWORK
