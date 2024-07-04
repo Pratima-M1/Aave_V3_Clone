@@ -18,7 +18,7 @@ This project provides deployment and interaction scripts for the Aave V3 protoco
    cd Aave_V3_Clone
    ```
 
-   2. **Install Dependencies**
+2. **Install Dependencies**
 
    ```
    npm install
