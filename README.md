@@ -32,15 +32,13 @@ This project provides deployment and interaction scripts for the Aave V3 protoco
 
 1. replace .env.example by .env
 
-- replace
+- ALCHEMY_KEY=
+- MNEMONIC=
 
-  - ALCHEMY_KEY=
-  - MNEMONIC=
+- ETHERSCAN_KEY=
 
-  - ETHERSCAN_KEY=
-
-  - RPC_URL=
-  - PRIVATE_KEY=
+- RPC_URL=
+- PRIVATE_KEY=
 
 2. npx hardhat deploy --network NETWORK
    select network of your choice(ex: hardhat or sepolia )
