@@ -48,7 +48,13 @@ npx hardhat deploy --network NETWORK
 
 select network of your choice(ex: hardhat or sepolia )
 
-3. To supply and withdraw asset, replace the addresses in supplyAndWithdraw.js and run
+3. To mint asset tokens replace the addresses in mintToken.js and run
+
+```
+npx hardhat run scripts/mintToken.js --network NETWORK
+```
+
+4. To supply and withdraw asset, replace the addresses in supplyAndWithdraw.js and run
 
 ```
 npx hardhat run scripts/supplyAndWithdraw.js --network NETWORK
